@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
  
 app.get('/', (req, res) => {
-  res.send('CICD Pipeline Successful')
+  res.send('CICD Pipeline to Automatic Deploymwnt Successful')
 })
  
 app.listen(3000, () => {
